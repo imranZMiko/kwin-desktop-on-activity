@@ -3,3 +3,5 @@ function logActivity(id) {
 }
 
 workspace.currentActivityChanged.connect(logActivity)
+
+print("Hello World");
